@@ -1,6 +1,6 @@
 Name:           jsoup
 Version:        1.6.1
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Java library for working with real-world HTML
 
 License:        MIT
@@ -62,9 +62,6 @@ API documentation for %{name}.
 %doc LICENSE
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6.1-10
-- Mass rebuild 2013-12-27
-
 * Fri Aug 16 2013 Stanislav Ochotnicky <sochotnicky@redhat.com> - 1.6.1-9
 - Migrate away from mvn-rpmbuild (#997437)
 
